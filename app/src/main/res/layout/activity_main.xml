@@ -14,15 +14,14 @@
         android:id="@+id/edtText" />
 
     <Button
-        android:id="@+id/txtBtn"
+        android:id="@+id/Btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Save Text" />
 
-    <Button
-        android:id="@+id/numBtn"
+    <ListView
+        tools:listitem="@layout/item_row"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Save Number" />
-
+        android:layout_height="match_parent"
+        android:id="@+id/listView" />
 </LinearLayout>
